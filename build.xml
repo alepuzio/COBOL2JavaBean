@@ -1,0 +1,65 @@
+<project name = "cobol2Java" basedir = "." default = "doc" >
+
+    <property name = "src.dir"     		value = "src"/>
+    <property name = "build.dir"   		value = "build"/>
+	<property name = "classes.dir" 		value = "${build.dir}/classes"/>
+    <property name = "jar.dir"     		value = "${build.dir}/jar"/>
+    <property name = "main-class"  		value = "net.alepuzio.cobol2Java.GeneraXMLBEANProcess"/>
+	<property name = "test.unit.src"    value = "test.unit"/>
+	<property name = "doc.dir"     		value = "documentation"/>
+	<property name = "lib.dir"     		value = "lib"/>
+
+	<path id = "build.classpath">
+	  <fileset dir = "lib">
+	    <include name = "**/*.jar"/>
+	  	<include name = "**/*.zip"/>
+	  </fileset>
+	</path>
+		
+    <target name = "clean" description = "Delete old release">
+    	<echo message = "Delete old release"/>
+        <delete dir = "${build.dir}"/>
+    </target>
+
+    <target name = "compile" description = "Compile the source code" depends = "clean">
+    	<echo message = "Compile the source code"/>
+        <mkdir dir = "${build.dir}"/>
+        <javac srcdir = "${src.dir}" destdir = "${build.dir}">
+        	<classpath refid = "build.classpath" />
+    	</javac>
+    </target>
+
+	<target name = "test.unit" description = "Run the tests" depends = "compile">
+		<echo message = "Run the tests"/>
+        <mkdir dir = "${build.dir}"/>
+        <javac srcdir = "src" destdir = "${build.dir}">
+			<classpath>
+    	        <path id="application" location="${jar.dir}/${ant.project.name}.jar"/>
+        	    <path id="junit" 	location="${lib.dir}/junit-4.9.jar"/>
+			    <path id="hamcrest" location="${lib.dir}/hamcrest-core-1.3.jar"/>
+			    <path id="log4j" 	location="${lib.dir}/log4j-1.2.17.jar"/>
+			</classpath>
+      	</javac>
+    </target>
+    
+    <target name = "doc" description = "Generate documentation" depends = "test.unit">
+    	<echo message = "Generate documentation"/>
+    	<javadoc sourcepath = "${src.dir}" destdir = "${doc.dir}"/>
+	</target>
+
+    <target name = "jar" description = "Create the jar package" depends = "doc">
+    	<echo message = "Create the jar package"/>
+        <mkdir dir = "${jar.dir}"/>
+        <jar destfile = "${jar.dir}/cobol2java.jar" basedir = ".">
+            <manifest>
+                <attribute name = "Main-Class" value = "net.alepuzio.cobol2Java.GeneraXMLBEANProcess"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name = "run" description = "Run the generation of Java Bean classes">
+    	<echo message = "Run the generation of Java Bean classes"/>
+        <java jar = "${jar.dir}/Cobol2Java.jar" fork = "true"/>
+    </target>
+
+</project>

@@ -1,0 +1,3 @@
+            02     MSG-IN-1   REDEFINES DATI-IN.
+              06  TP-QUEST                  PIC X(001).
+              06  DATE-OPERATION            PIC X(008).

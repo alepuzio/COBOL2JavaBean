@@ -1,0 +1,8 @@
+            02 MSG-OU-1  REDEFINES DATI-OU.
+               04 DATI-MSG-OU-1.
+                  06  TP-QUEST                  PIC X(001).
+                  06  FIRST		                PIC X(001).
+                  06  MOVEMENT
+                      07 IDENTIFY		        PIC 9(012).
+                      07 FILLER                 PIC X(010).
+                  06  DATE-OPERATION            PIC X(008).

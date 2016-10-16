@@ -1,0 +1,9 @@
+net.alepuzio.cobol2Java
+net.alepuzio.cobol2Java.bean
+net.alepuzio.cobol2Java.enumeration
+net.alepuzio.cobol2Java.enumeration.interpreter
+net.alepuzio.cobol2Java.generateFile
+net.alepuzio.cobol2Java.generateFile.input
+net.alepuzio.cobol2Java.generateFile.output
+net.alepuzio.cobol2Java.process
+net.alepuzio.cobol2Java.util
