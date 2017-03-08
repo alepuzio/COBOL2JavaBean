@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.util;
+package net.alepuzio.cobol2java.util;
 
 /**
  * This class concentrates the methods to format various String

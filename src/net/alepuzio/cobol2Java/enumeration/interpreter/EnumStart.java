@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.enumeration.interpreter;
+package net.alepuzio.cobol2java.enumeration.interpreter;
 
 public  enum EnumStart {
 

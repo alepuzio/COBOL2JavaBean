@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.process;
+package net.alepuzio.cobol2java.process;
 
 
 import java.io.BufferedReader;
@@ -10,10 +10,10 @@ import java.util.TreeSet;
 
 import org.apache.log4j.Logger;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumCOBOL;
-import net.alepuzio.cobol2Java.enumeration.EnumPositionInputCOBOL;
-import net.alepuzio.cobol2Java.util.UtilIO;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumCOBOL;
+import net.alepuzio.cobol2java.enumeration.EnumPositionInputCOBOL;
+import net.alepuzio.cobol2java.util.UtilIO;
 
 
 /**

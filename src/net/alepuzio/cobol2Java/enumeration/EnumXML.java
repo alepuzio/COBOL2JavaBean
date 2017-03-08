@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.enumeration;
+package net.alepuzio.cobol2java.enumeration;
 
 public  enum EnumXML {
 

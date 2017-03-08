@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java;
+package net.alepuzio.cobol2java;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,15 +6,15 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
-import net.alepuzio.cobol2Java.enumeration.EnumIO;
-import net.alepuzio.cobol2Java.process.GenerateBean;
-import net.alepuzio.cobol2Java.process.GenerateXML;
+import net.alepuzio.cobol2java.enumeration.EnumIO;
+import net.alepuzio.cobol2java.process.GenerateBean;
+import net.alepuzio.cobol2java.process.GenerateXML;
 
 
 
 public class GeneraXMLBEANProcess {
 	
-	private static Logger logger = Logger.getLogger(net.alepuzio.cobol2Java.GeneraXMLBEANProcess.class);
+	private static Logger logger = Logger.getLogger(net.alepuzio.cobol2java.GeneraXMLBEANProcess.class);
 
 	/**
 	 * Run the program

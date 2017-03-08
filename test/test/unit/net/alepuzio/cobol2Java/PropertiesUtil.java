@@ -1,4 +1,4 @@
-package test.unit.net.alepuzio.cobol2Java;
+package test.unit.net.alepuzio.cobol2java;
 
 import java.util.Properties;
 

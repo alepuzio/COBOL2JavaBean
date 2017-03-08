@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.bean;
+package net.alepuzio.cobol2java.bean;
 
 import java.util.Iterator;
 import java.util.Set;

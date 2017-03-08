@@ -1,13 +1,13 @@
-package test.unit.net.alepuzio.cobol2Java.generaFile.output;
+package test.unit.net.alepuzio.cobol2java.generaFile.output;
 
 
 import java.util.HashSet;
 import java.util.Set;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumDestination;
-import net.alepuzio.cobol2Java.enumeration.EnumIO;
-import net.alepuzio.cobol2Java.generateFile.output.ConfigurationTemplateFactoryInputFromHost;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumDestination;
+import net.alepuzio.cobol2java.enumeration.EnumIO;
+import net.alepuzio.cobol2java.generateFile.output.ConfigurationTemplateFactoryInputFromHost;
 
 import org.junit.After;
 import org.junit.AfterClass;

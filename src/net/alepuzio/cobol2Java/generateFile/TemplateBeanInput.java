@@ -1,6 +1,6 @@
-package net.alepuzio.cobol2Java.generateFile;
+package net.alepuzio.cobol2java.generateFile;
 
-import net.alepuzio.cobol2Java.generateFile.TemplateFactoryBeanInputOuput;
+import net.alepuzio.cobol2java.generateFile.TemplateFactoryBeanInputOuput;
 /**
  * This class represents the template of a Input generated class
  * */

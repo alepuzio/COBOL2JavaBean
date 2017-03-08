@@ -1,13 +1,13 @@
-package net.alepuzio.cobol2Java.generateFile.input;
+package net.alepuzio.cobol2java.generateFile.input;
 
 import java.io.PrintWriter;
 import java.util.Set;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumDestination;
-import net.alepuzio.cobol2Java.enumeration.EnumIO;
-import net.alepuzio.cobol2Java.enumeration.EnumSourceCode;
-import net.alepuzio.cobol2Java.generateFile.TemplateBeanInput;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumDestination;
+import net.alepuzio.cobol2java.enumeration.EnumIO;
+import net.alepuzio.cobol2java.enumeration.EnumSourceCode;
+import net.alepuzio.cobol2java.generateFile.TemplateBeanInput;
 
 /**
  * This class

@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.util;
+package net.alepuzio.cobol2java.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

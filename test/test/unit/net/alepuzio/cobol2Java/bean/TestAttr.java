@@ -1,11 +1,11 @@
 /**
  * 
  */
-package test.unit.net.alepuzio.cobol2Java.bean;
+package test.unit.net.alepuzio.cobol2java.bean;
 
  
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumComparition;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumComparition;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -60,7 +60,7 @@ public class TestAttr {
 
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#equals(java.lang.Object)}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#equals(java.lang.Object)}.
 	 */
 	@Test
 	public final void testEqualsObject() {
@@ -70,7 +70,7 @@ public class TestAttr {
 
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#getName()}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#getName()}.
 	 */
 	@Test
 	public final void testGetName() {
@@ -80,7 +80,7 @@ public class TestAttr {
 	}
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#getLength()}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#getLength()}.
 	 */
 	@Test
 	public final void testGetLength() {
@@ -90,7 +90,7 @@ public class TestAttr {
 	}
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#isInput()}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#isInput()}.
 	 */
 	@Test
 	public final void testIsInput() {
@@ -102,7 +102,7 @@ public class TestAttr {
 	}
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#getNameFormattedAsAttribute()}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#getNameFormattedAsAttribute()}.
 	 */
 	@Test
 	public final void testGetNameFormattedAsAttribute() {
@@ -112,7 +112,7 @@ public class TestAttr {
 	}
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#getNameFormattedForMethod()}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#getNameFormattedForMethod()}.
 	 */
 	@Test
 	public final void testGetNameFormattedForMethod() {
@@ -122,7 +122,7 @@ public class TestAttr {
 	}
 
 	/**
-	 * Test method for {@link net.alepuzio.cobol2Java.bean.TestAttr#compareTo(net.alepuzio.cobol2Java.bean.TestAttr)}.
+	 * Test method for {@link net.alepuzio.cobol2java.bean.TestAttr#compareTo(net.alepuzio.cobol2java.bean.TestAttr)}.
 	 */
 	@Test
 	public final void testCompareTo() {

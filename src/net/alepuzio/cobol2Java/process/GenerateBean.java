@@ -1,11 +1,11 @@
-package net.alepuzio.cobol2Java.process;
+package net.alepuzio.cobol2java.process;
 
 import java.util.Properties;
 import java.util.Set;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumDestination;
-import net.alepuzio.cobol2Java.generateFile.TemplateFactoryBeanInputOuput;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumDestination;
+import net.alepuzio.cobol2java.generateFile.TemplateFactoryBeanInputOuput;
 
 /**
  * This class contains the data of the Java Bena to create and runs the generation of the files

@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.enumeration;
+package net.alepuzio.cobol2java.enumeration;
 
 /**
  * this class represents the enumeration and constants of XML and Java Source code

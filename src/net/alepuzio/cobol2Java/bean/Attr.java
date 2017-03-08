@@ -1,6 +1,6 @@
-package net.alepuzio.cobol2Java.bean;
+package net.alepuzio.cobol2java.bean;
 
-import net.alepuzio.cobol2Java.util.UtilFormat;
+import net.alepuzio.cobol2java.util.UtilFormat;
 
 /**
  * This class represents an attribute in the generated classes.

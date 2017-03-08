@@ -1,4 +1,4 @@
-package test.unit.net.alepuzio.cobol2Java.bean;
+package test.unit.net.alepuzio.cobol2java.bean;
 
 import static org.junit.Assert.assertThat;
 
@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.bean.SetOfAttributes;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.bean.SetOfAttributes;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.After;

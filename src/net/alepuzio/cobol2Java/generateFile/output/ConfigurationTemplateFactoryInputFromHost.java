@@ -1,11 +1,11 @@
-package net.alepuzio.cobol2Java.generateFile.output;
+package net.alepuzio.cobol2java.generateFile.output;
 
 import java.util.Set;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumDestination;
-import net.alepuzio.cobol2Java.enumeration.EnumIO;
-import net.alepuzio.cobol2Java.generateFile.TemplateBeanOutput;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumDestination;
+import net.alepuzio.cobol2java.enumeration.EnumIO;
+import net.alepuzio.cobol2java.generateFile.TemplateBeanOutput;
 
 public class ConfigurationTemplateFactoryInputFromHost extends TemplateBeanOutput {
 

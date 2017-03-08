@@ -1,4 +1,4 @@
-package net.alepuzio.cobol2Java.generateFile;
+package net.alepuzio.cobol2java.generateFile;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,14 +8,14 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
-import net.alepuzio.cobol2Java.bean.Attr;
-import net.alepuzio.cobol2Java.enumeration.EnumDestination;
-import net.alepuzio.cobol2Java.enumeration.EnumIO;
-import net.alepuzio.cobol2Java.enumeration.EnumSourceCode;
-import net.alepuzio.cobol2Java.generateFile.input.ConfigurationTemplateFactoryInputForHost;
-import net.alepuzio.cobol2Java.generateFile.output.ConfigurationTemplateFactoryInputFromHost;
-import net.alepuzio.cobol2Java.util.UtilFormat;
-import net.alepuzio.cobol2Java.util.UtilIO;
+import net.alepuzio.cobol2java.bean.Attr;
+import net.alepuzio.cobol2java.enumeration.EnumDestination;
+import net.alepuzio.cobol2java.enumeration.EnumIO;
+import net.alepuzio.cobol2java.enumeration.EnumSourceCode;
+import net.alepuzio.cobol2java.generateFile.input.ConfigurationTemplateFactoryInputForHost;
+import net.alepuzio.cobol2java.generateFile.output.ConfigurationTemplateFactoryInputFromHost;
+import net.alepuzio.cobol2java.util.UtilFormat;
+import net.alepuzio.cobol2java.util.UtilIO;
 
 /**
  * This class concentrates the common data and methods used into creation of Input and Output Class
@@ -31,7 +31,7 @@ public abstract class TemplateFactoryBeanInputOuput {
 	 /**
 	  * @return an instance of this class
 	  * @param typeGeneratedFile: it defines if it's creeating a class for communication between host or between web: the possibile values are definted in
-	  * net.alepuzio.cobol2Java.enumeration.EnumSourceCode
+	  * net.alepuzio.cobol2java.enumeration.EnumSourceCode
 	  * @param nameClass: name of the Java Bean that has be to create
 	  * @param  setAttributes: set of the attributes that have to be put into generated class
 	  *  

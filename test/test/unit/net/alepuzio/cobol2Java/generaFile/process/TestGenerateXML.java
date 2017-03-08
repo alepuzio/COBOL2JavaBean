@@ -1,9 +1,9 @@
-package test.unit.net.alepuzio.cobol2Java.generaFile.process;
+package test.unit.net.alepuzio.cobol2java.generaFile.process;
 
 
 import java.util.Properties;
 
-import net.alepuzio.cobol2Java.process.GenerateXML;
+import net.alepuzio.cobol2java.process.GenerateXML;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -12,7 +12,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import test.unit.net.alepuzio.cobol2Java.PropertiesUtil;
+import test.unit.net.alepuzio.cobol2java.PropertiesUtil;
 
 public class TestGenerateXML {
 
